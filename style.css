@@ -16,7 +16,6 @@ body {
 }
 
 #color-palette {
-  
   width: 800px;
   padding: 1em;
   margin-bottom: 1em;
@@ -31,6 +30,7 @@ body {
   width: 70px;
   height: 70px;
   margin: 0 1em;
+  border-radius: 4px;
 }
 
 .um {
@@ -63,17 +63,17 @@ body {
   background-color: white;
   height: 40px;
   width: 40px;
-  border-radius: 2px;
+  border-radius: 5px;
   border: 1px solid black;
-
 }
 
 #clear-board {
-height: 35px;
-padding: 0 6.5em;
+  height: 35px;
+  padding: 0 6.5em;
 }
 
-#board-size, #generate-board {
+#board-size,
+#generate-board {
   height: 35px;
   padding: 0 0.1em;
 }
