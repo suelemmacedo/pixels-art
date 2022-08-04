@@ -35,5 +35,4 @@ function clearFream() {
 
   }
 } 
-
 btnLimpar.addEventListener('click', clearFream);

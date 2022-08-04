@@ -67,3 +67,13 @@ body {
   border: 1px solid black;
 
 }
+
+#clear-board {
+height: 35px;
+padding: 0 6.5em;
+}
+
+#board-size, #generate-board {
+  height: 35px;
+  padding: 0 0.1em;
+}
