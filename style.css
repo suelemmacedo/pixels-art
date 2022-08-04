@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   height: 100%;
@@ -17,7 +16,7 @@ body {
 }
 
 #color-palette {
-  background-color: rgb(118, 118, 181);
+  
   width: 800px;
   padding: 1em;
   margin-bottom: 1em;
@@ -27,30 +26,44 @@ body {
 }
 
 .color {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  padding: 0 .25em;
+  border: 1px solid black;
+  padding: 0 0.25em;
   width: 70px;
   height: 70px;
   margin: 0 1em;
 }
 
-#pixel-board {
-    --size: 5;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(var(--size), 1fr);
-    grid-template-rows: repeat(var(--size), 1fr);
-    gap: 3px;
-    padding: 3px;
+.um {
+  background: #000000;
+}
 
+.dois {
+  background: #d99292;
+}
+
+.tres {
+  background: #d6e22d;
+}
+
+.quatro {
+  background: #06dd60;
+}
+
+#pixel-board {
+  --size: 5;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(var(--size), 1fr);
+  grid-template-rows: repeat(var(--size), 1fr);
+  gap: 3px;
+  padding: 3px;
 }
 
 .pixel {
-    background-color: white;
-    height: 40px;
-    width: 40px;
-    border-radius: 2px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 2px;
+  border: 1px solid black;
 
 }
